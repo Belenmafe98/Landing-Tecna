@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prueba landing</title>
     <style>
+      html{
+        width: 600px;
+      }
+      html,
       body {
         font-family: Arial, Helvetica, sans-serif;
         display: flex;
@@ -13,6 +17,13 @@
         height: 100vh;
         width: 100%;
       }
+    @media only screen and (max-width: 600px){
+      body {
+width: 600px;
+      }
+    
+    }
+  
       .cajaInfo {
         width: 15rem;
         height: auto;
@@ -22,9 +33,16 @@
         justify-content: space-between;
         flex-direction: column;
       }
+      @media only screen and (max-width: 600px){
+   .cajaInfo {
+    width: 25rem;
+    font-size:large;
+   }
+    
+    }
       
       .cajaInfo--cajaInfo-inferior {
-        background-color: rgb(225, 231, 231);
+        background-color: rgb(223, 226, 226);
         color: black;
         height: 9rem;
         padding: 5%;
@@ -32,6 +50,27 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+      }
+       .cajaInfo--cajaInfo-inferior--pequeña {
+       
+        font-size: x-small;
+      
+      }
+ 
+
+      @media only screen and (max-width: 600px){
+        .cajaInfo--cajaInfo-inferior {
+        
+        font-size: medium;
+        
+      }
+    
+    }
+     @media only screen and (max-width: 600px){
+        .cajaInfo--cajaInfo-inferior--pequeña {
+        
+        font-size: small;}
+        
       }
       .cajaInfo-superior {
         padding: 5%;
@@ -60,6 +99,15 @@
         margin-left: 2rem;
         margin-bottom: 2rem;
       }
+      @media only screen and (max-width: 600px){
+        .cajaTotal--morada {
+          width: auto;
+        margin-bottom: 20px;
+        margin-left:0px;
+      }
+    
+    }
+      
       a {
         color: rgb(0, 0, 0);
         text-decoration: none;
@@ -71,6 +119,14 @@
       .imagenCabecera {
         width: 600px;
       }
+      
+      @media only screen and (max-width: 600px){
+        .imagenCabecera {
+width: 70%;
+      }
+    
+    }
+    
       .introduccion {
         width: 600px;
         display: flex;
@@ -98,6 +154,13 @@
       .infografiaViviendas {
         width: 600px;
       }
+      @media only screen and (max-width: 600px){
+        .infografiaViviendas {
+      width: 70%;
+      }
+    
+    }
+      
       .final{
         width: 600px;
         display: flex;
@@ -106,30 +169,53 @@
         background-color: #002b56;
         color: #ffffff;
       }
+      @media only screen and (max-width: 600px){
+        .final {
+width: 70%;
+      }
+    
+    }
       .textoParrafo{
         
       text-align: center;
 
       }
+      @media only screen and (max-width: 600px){
+        .textoParrafo {
+font-size: small;
+      }
+    
+    }
+      
       .botonInfo--final{
         margin-right: 0px;
         margin: 1rem;
       }
+      .hse-section{
+
+      }
+      @media only screen and (max-width: 600px){
+        .hse-section {
+      width: 70%;
+      }
+    
+    }
+
       
      
     </style>
   </head>
   <body>
-    <img class="imagenCabecera" src="IMG/cabecera.png" alt="cabecera tecna">
+    <img class="imagenCabecera" src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/cabecera.png" alt="cabecera tecna">
     <img
       class="imagenCabecera"
-      src="IMG/cabeceraemail.png"
+      src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/cabeceraemail.png"
       alt="cabecera"
     />
     
     <img
       class="infografiaViviendas"
-      src="IMG/infografia.jpg"
+      src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/corregido%20Infografia%20movil-01.jpg"
       alt="infografiaViviendas"
     />
     <div class="seccionCajas">
@@ -142,7 +228,7 @@
             target="_blank"
             >  Recuperador de<br />
             calor /ventilación mecánica <br />controlada. VMC </a>
-            <img src="IMG/1.png" alt="Foto del Producto" />
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/1.png" alt="Foto del Producto" />
           </div>
           <div class="cajaInfo--cajaInfo-inferior">
             <a
@@ -176,7 +262,7 @@
         <div class="cajaInfo">
           <div class="cajaInfo-superior" style="background-color: #829199">
             Ventilación/<br />Conductos
-            <img src="IMG/2.png" alt="Foto del Producto" />
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/2.png" alt="Foto del Producto" />
           </div>
           <div class="cajaInfo--cajaInfo-inferior">
             <span> Extractores domésticos de baño </span>
@@ -193,7 +279,7 @@
         <div class="cajaInfo">
           <div class="cajaInfo-superior" style="background-color: #3461aa">
             Fancoils
-            <img src="IMG/3.png" alt="Foto del Producto" />
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/3.png" alt="Foto del Producto" />
           </div>
           <div class="cajaInfo--cajaInfo-inferior">
             <span> SABIANA CARISMA FLY</span>
@@ -215,7 +301,7 @@
         <div class="cajaInfo">
           <div class="cajaInfo-superior" style="background-color: #d11217">
             Bomba de calor Aerotermia/<br />
-            <img src="IMG/4.png" alt="Foto del Producto" />
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/4.png" alt="Foto del Producto" />
           </div>
           <div class="cajaInfo--cajaInfo-inferior">
             <span> ORANGE/MAX/HT</span>
@@ -236,7 +322,7 @@
         <div class="cajaInfo">
           <div class="cajaInfo-superior" style="background-color: #2b995a">
             Radiadores y secatoallas
-            <img src="IMG/5.png" alt="Foto del Producto" />
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/5.png" alt="Foto del Producto" />
           </div>
           <div class="cajaInfo--cajaInfo-inferior">
             <span> PUKITA</span>
@@ -256,7 +342,7 @@
         <div class="cajaInfo">
           <div class="cajaInfo-superior" style="background-color: #eb6587">
             Filtración
-            <img src="IMG/6.png" alt="Foto del Producto" />
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/6.png" alt="Foto del Producto" />
           </div>
           <div class="cajaInfo--cajaInfo-inferior">
             <span> Filtros CRYSTALL</span>
@@ -272,7 +358,7 @@
         <div class="cajaInfo">
           <div class="cajaInfo-superior" style="background-color: #574393">
             Bomba de calor piscina y deshumidificador
-            <img src="IMG/7.png" alt="Foto del Producto" />
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/7.png" alt="Foto del Producto" />
           </div>
           <div class="cajaInfo--cajaInfo-inferior">
             <span> Deshumidificador de techo MICROWELL serie DRY SIREN </span>
@@ -284,6 +370,400 @@
         </div>
       </div>
     </div>
+    <!-- Nave industrial -->
+     <img
+      class="infografiaViviendas"
+      src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/ENTORNOS%20INDUSTRIALES-01.jpg"
+      alt="infografiaViviendas"
+    />
+    <div class="seccionCajas">
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #f39409"> 1 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #f39409">
+            <a class="enlaceTitulo"
+            href="https://tecna.es/todos-los-productos/residencial/recuperadores-de-calor-residencial/basic-entalpic-tecnavent-rch/"
+            target="_blank"
+            >  Recuperador de<br />
+            calor /ventilación mecánica <br />controlada. VMC </a>
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/1.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <a
+              href="https://tecna.es/todos-los-productos/residencial/recuperadores-de-calor-residencial/basic-entalpic-tecnavent-rch/"
+              target="_blank"
+              ><span> TECNA RCE </span></a
+            >
+            <hr color="gray" width="100%" size="1px" />
+            <a
+              href="https://tecna.es/todos-los-productos/residencial/recuperadores-de-calor-residencial/eny-shp/"
+              target="_blank"
+              ><span> TECNA SIC  CFR-HP/HPEI
+              </span></a
+            >
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #829199"> 2 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #829199">
+            Ventilación/<br />Conductos
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/2.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span> Cajas  de ventilación con motor EXC </span>
+            <hr color="gray" width="100%" size="1px" />
+            <span> Extractores de tejado</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span> Ventiladores industriales</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #3461aa"> 3 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #3461aa">
+            Calefacción radiante
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/3.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span> Panel radiante SABIANA DUCK STRIP</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>Panel radiante eléctrico TECNA</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span> Calefactores profesionales TECNA</span>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #68C1BE"> 4 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #68C1BE">
+            Desestratificadores a/<br />
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/4.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span>TECNA ELITURBO</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>SABIANA NO STRAT</span>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #D01218"> 5 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #D01218">
+            Bomba de calor Aerotermia/Geotermia
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/5.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span>Efriadora PURPLE</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>IRADIUM</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span> RED/ RED MAX </span>
+            <hr color="gray" width="100%" size="1px" />
+            <span> BLACK HT EVO </span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>BROWN</span>
+          </div>
+        </div>
+      </div>
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #eb6587"> 6 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #eb6587">
+            Aerotermos
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/6.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior cajaInfo--cajaInfo-inferior--pequeña">
+            <span> ATLAS SABIANA</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>HELIOS SABIANA</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span> JANUS SABIANA </span>
+            
+            <hr color="gray" width="100%" size="1px" />
+            <span>AIX SABIANA</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span> 
+              COMFORT SABIANA
+               </span>
+               <hr color="gray" width="100%" size="1px" />
+               <span> 
+                ELEGANT SABIANA
+                  </span>
+          </div>
+        </div>
+      </div>
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #002B56"> 7 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #002B56">
+            Cortinas de aire
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/6.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span> ATLAS STP SABIANA</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>SABIANA LU ECM</span>
+           
+          </div>
+        </div>
+      </div>
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #4FC2EF"> 8 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #4FC2EF">
+            Enfriamiento evaporativos
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/6.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span>TECNA COOLBREZE</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>TECNA OXYCOM</span>
+           
+          </div>
+        </div>
+      </div>
+      <div class="cajaTotal--morada">
+        <span class="numeroIcono" style="background-color: #A6C738"> 9 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #A6C738">
+            Calentador electrónicos instantáneos
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/7.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span>MCX 6 </span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>MBH 6</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span> DEX NEXT</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>DBX NEXT</span>
+          </div>
+        </div>
+      </div>
+      </div>
+      <img
+      class="infografiaViviendas"
+      src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/infografia%20hotel%20nueva-01.jpg"
+      alt="infografiaViviendas"
+    />
+    <div class="seccionCajas">
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #f39409"> 1 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #f39409">
+            <a class="enlaceTitulo"
+            href="https://tecna.es/todos-los-productos/residencial/recuperadores-de-calor-residencial/basic-entalpic-tecnavent-rch/"
+            target="_blank"
+            >  Recuperador de<br />
+            calor /ventilación mecánica <br />controlada. VMC </a>
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/1.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <a
+              href="https://tecna.es/todos-los-productos/residencial/recuperadores-de-calor-residencial/basic-entalpic-tecnavent-rch/"
+              target="_blank"
+              ><span>TECNA RCE </span></a
+            >
+            <hr color="gray" width="100%" size="1px" />
+            <a
+              href="https://tecna.es/todos-los-productos/residencial/recuperadores-de-calor-residencial/eny-shp/"
+              target="_blank"
+              ><span> TECNAVENT KOMFORT RCH ENTÁLPICO </span></a
+            >
+            <hr color="gray" width="100%" size="1px" />
+            <a
+              href="https://tecna.es/todos-los-productos/residencial/recuperadores-de-calor-residencial/eny-sp/"
+              target="_blank"
+              > <span>TECNA SIC CFR-HP/HPEI</span> </a>
+            <hr color="gray" width="100%" size="1px" />
+            <a
+            href="https://tecna.es/todos-los-productos/residencial/recuperadores-de-calor-residencial/energy-easy/"
+            target="_blank"
+            >  <span> Energy Plus SABIANA</span> </a>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #829199"> 2 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #829199">
+            Ventilación/<br />Conductos
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/2.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span> Cajas  de ventilación con motor EXC</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>Extractores domésticos de baño</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>Ventiladores tubulares, helicocentrífugos</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #68C1BE"> 3 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #68C1BE">
+            Desastrificador
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/3.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span> TECNA MAGNUM</span>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #d11217"> 4 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #d11217">
+            Bomba de calor Aerotermia/<br />Geotermia
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/4.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior cajaInfo--cajaInfo-inferior--pequeña">
+            <span>Enfriadora PURPLE</span>
+          
+            <hr color="gray" width="100%" size="1px" />
+            <span>IRADIUM</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>RED/ RED MAX </span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>BLACK HT EVO</span>
+             <hr color="gray" width="100%" size="1px" />
+            <span>BROWN </span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>ORANGE/MAX/HT</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #2b995a"> 5 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #2b995a">
+            Radiadores y secatoallas
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/5.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span>CICSA ZETA T </span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>CICSA ECO INOX</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span> Paneles de acero Kermi  </span>
+           
+          </div>
+        </div>
+      </div>
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #574393"> 6 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #574393">
+            Bomba de calor piscina y deshumidificador
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/6.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span>Deshumidificador de techo MICROWELL serie DRY SIREN</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>Bombas de calor MICROWELL HP</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>Deshumidificador TECNA DRY MIRROR </span>
+          </div>
+        </div>
+      </div>
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #3662AA"> 7 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #3662AA">
+            Fancoils
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/6.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior cajaInfo--cajaInfo-inferior--pequeña">
+            <span>SABIANA CARISMA FLY</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>CARISMA Serie CRC IO/IV</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>SABIANA SKYSTAR </span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>SABIANA COANDA CCN</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>SKYSTAR JUMBO ECM </span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>SABIANA CRSL</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>SABIANA MAESTRO MTL</span>
+          </div>
+        </div>
+      </div>
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #4FC2EF"> 8 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #4FC2EF">
+            Unidades de tratamiento de aire (UTA) y filtros electrostáticos
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/6.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span>SABIANA OCEAN </span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>SABIANA OCEAN </span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>OCEAN - ECM  </span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>TITAN 
+ </span>
+ <hr color="gray" width="100%" size="1px" />
+            <span>ZEUS 
+ </span>
+          </div>
+        </div>
+      </div>
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #eb6587"> 9 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #eb6587">
+            Filtros electrostáticos para fancoil y conductos cajas filtrantes
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/6.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span>Filtros electrostáticos para fancoils y conductos</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>Filtros electrostáticos para UTAS</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>HEPA 11 </span>
+          </div>
+        </div>
+      </div>
+      <div class="cajaTotal">
+        <span class="numeroIcono" style="background-color: #002B56"> 10 </span>
+        <div class="cajaInfo">
+          <div class="cajaInfo-superior" style="background-color: #002B56">
+            Cortinas de aire
+            <img src="https://26488628.fs1.hubspotusercontent-eu1.net/hubfs/26488628/IMG%20CORREO/7.png" alt="Foto del Producto" />
+          </div>
+          <div class="cajaInfo--cajaInfo-inferior">
+            <span> SABIANA MELTEM </span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>TECNA SHEARFLOW</span>
+            <hr color="gray" width="100%" size="1px" />
+            <span>Cortinas de aire verticales en acero inoxidable</span>
+          </div>
+        </div>
+      </div>
+      </div>
     <div class="final">
     <p class="textoParrafo" text-align: center;
     font-weight: normal;
